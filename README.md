@@ -1,9 +1,6 @@
 
 # MS-DOS with Rust
 
-[![ci](https://github.com/Enet4/dos-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/Enet4/dos-rs/actions/workflows/ci.yml)
-[![pages-build-deployment](https://github.com/Enet4/dos-rs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Enet4/dos-rs/actions/workflows/pages/pages-build-deployment)
-
 This is an attempt at building a Rust project to target
 MS-DOS in protected mode via [DJGPP](http://www.delorie.com/djgpp/),
 supporting x86 CPUs architectures from i386 to i686.
@@ -49,10 +46,10 @@ Known caveats:
 
 ## Requirements
 
-- Build and install [`elf2dgpp`](https://github.com/cknave/elf2djgpp)
+- Build and install [`elf2dgpp`](https://github.com/FreeFull/elf2djgpp)
 - A nightly Rust toolchain (defined in [rust-toolchain](rust-toolchain))
 - The [DJGGP GCC toolchain](https://www.delorie.com/djgpp)
-  (version 12.2.0 is known to work, but it should work with more versions as is).
+  (version 14.2.0 is known to work, but it should work with more versions as is).
 
 ## Building
 
