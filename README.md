@@ -47,7 +47,7 @@ Known caveats:
 ## Requirements
 
 - Build and install [`elf2dgpp`](https://github.com/FreeFull/elf2djgpp)
-- A nightly Rust toolchain (defined in [rust-toolchain](rust-toolchain))
+- A nightly Rust toolchain (defined in [rust-toolchain.toml](rust-toolchain.toml))
 - The [DJGGP GCC toolchain](https://www.delorie.com/djgpp)
   (version 14.2.0 is known to work, but it should work with more versions as is).
 
